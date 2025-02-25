@@ -1,0 +1,20 @@
+{
+  "name": "frontend",
+  "module": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun server.js",
+    "test": "bun test.js",
+    "dev": "bun --watch server.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
